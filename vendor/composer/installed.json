@@ -1,0 +1,50 @@
+{
+    "packages": [
+        {
+            "name": "phpalchemy/yaml",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "target-dir": "Alchemy/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpalchemy/yaml.git",
+                "reference": "39b1463dde696a4525845434577f3f1a564b83c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpalchemy/yaml/zipball/39b1463dde696a4525845434577f3f1a564b83c6",
+                "reference": "39b1463dde696a4525845434577f3f1a564b83c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0"
+            },
+            "time": "2014-03-19T05:23:35+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Alchemy\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP Yaml Parser",
+            "homepage": "https://github.com/phpalchemy/Yaml",
+            "keywords": [
+                "parser",
+                "php",
+                "yaml"
+            ],
+            "support": {
+                "issues": "https://github.com/phpalchemy/yaml/issues",
+                "source": "https://github.com/phpalchemy/yaml/tree/v1.0.0"
+            },
+            "install-path": "../phpalchemy/yaml/Alchemy/Component/Yaml"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phpalchemy/yaml": "^1.0"
+    }
+}

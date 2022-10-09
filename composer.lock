@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f1d8be96baa93ef2c1e858d3ee962f2c",
+    "packages": [
+        {
+            "name": "phpalchemy/yaml",
+            "version": "v1.0.0",
+            "target-dir": "Alchemy/Component/Yaml",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpalchemy/yaml.git",
+                "reference": "39b1463dde696a4525845434577f3f1a564b83c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpalchemy/yaml/zipball/39b1463dde696a4525845434577f3f1a564b83c6",
+                "reference": "39b1463dde696a4525845434577f3f1a564b83c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Alchemy\\Component\\Yaml\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP Yaml Parser",
+            "homepage": "https://github.com/phpalchemy/Yaml",
+            "keywords": [
+                "parser",
+                "php",
+                "yaml"
+            ],
+            "support": {
+                "issues": "https://github.com/phpalchemy/yaml/issues",
+                "source": "https://github.com/phpalchemy/yaml/tree/v1.0.0"
+            },
+            "time": "2014-03-19T05:23:35+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
