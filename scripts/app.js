@@ -16,7 +16,8 @@ async function genereHTML(nom){
     let repos=await jsonFetch(user.repos_url);
     let dropdownbtnOptions='';
     let main=document.getElementById("main");
-    //user.following_url=;
+    let i=0;
+    let NBR_REPO_AFF=3;
     profile=document.createElement("div");
     profile.setAttribute('class','profile');
         profil_image=document.createElement("div");
@@ -42,13 +43,17 @@ async function genereHTML(nom){
                 dropdown_menu=document.createElement("ul");
                 dropdown_menu.setAttribute('class','dropdown-menu')
                 if (repos['length'] !== 0){
+
                     for (let repo of repos){
+                        if(i<NBR_REPO_AFF){
                         dropdownbtnOptions=document.createElement("li");
                             linksInDropdown=document.createElement("a");
                             linksInDropdown.setAttribute('href' ,repo.html_url);
                             linksInDropdown.innerHTML=repo.name;
                         dropdownbtnOptions.appendChild(linksInDropdown);
                         dropdown_menu.appendChild(dropdownbtnOptions);
+                        i+=1;
+                        }
                     }
                 }else{
                     dropdownbtnOptions=document.createElement("li");
